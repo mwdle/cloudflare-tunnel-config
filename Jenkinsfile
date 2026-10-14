@@ -6,7 +6,6 @@ boolean disableIndexTriggers = !isMainBranch
 
 quadletPipeline(
     disableIndexTriggers: disableIndexTriggers,
-    alertEmail: "${env.ALERT_EMAIL}",
     podmanSecretMappings: [
         [
             type: 'string',
