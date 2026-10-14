@@ -1,0 +1,3 @@
+[Network]
+NetworkName=cloudflare-tunnel
+Subnet=10.90.0.0/24
