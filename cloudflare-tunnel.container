@@ -17,7 +17,7 @@ UserNS=auto
 NoNewPrivileges=true
 DropCapability=all
 
-Exec=tunnel --no-autoupdate run --token-file /run/secrets/tunnel_token
+Exec=tunnel run --token-file /run/secrets/tunnel_token
 
 HealthStartupCmd=["cloudflared", "tunnel", "ready"]
 HealthStartupInterval=5s
